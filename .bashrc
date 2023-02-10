@@ -17,6 +17,8 @@ PS1='[\u@\h \W]\$ '
 [[ $- != *i* ]] && return
 
 
+#PS1='[\u@\h \W]\$ '
+
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
@@ -402,3 +404,12 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
+
+
+#Talend Open Studio
+alias TOS="/home/olivier/Talend/TOS_DI-20200219_1130-V7.3.1/TOS_DI-linux-gtk-x86_64 &"
+alias tos="/home/olivier/Talend/TOS_DI-20200219_1130-V7.3.1/TOS_DI-linux-gtk-x86_64 &"
+#youtube-dl
+alias ydl720="youtube-dl -f 'best[height<=720]'+bestaudio -o '%(title)s.%(ext)s'"
+#EXA
+alias exa='exa -ghl --git --icons'

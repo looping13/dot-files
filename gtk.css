@@ -1,0 +1,6 @@
+#XfcePanelWindow {
+   border-radius: 16px;
+}
+.xfce4-panel widget grid {
+   font-size: 24px;
+}
