@@ -2,7 +2,7 @@
 Version=1.0
 Name=CityMapper
 Comment=CityMapper Paris kiosk
-Exec=/usr/lib/firefox/firefox --new-instance --kiosk https://citymapper.com/webapp 
+Exec=chromium --new-window --kiosk --app= https://citymapper.com/webapp 
 # alternative url https://citymapper.com/paris?lang=fr
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=org.gnome.Maps
