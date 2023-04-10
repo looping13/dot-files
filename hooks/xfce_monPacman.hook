@@ -6,7 +6,7 @@ Operation = Remove
 Type = Package
 Target = *
 [Action]
-Description='Refresh Pacman monitor'
+Description= +++ Refresh Pacman monitor +++
 Depends = xfce4-panel
 When = PostTransaction
 # check the number of the plugin genmon-x, by hovering on the panel>items , in my current it is 27 
