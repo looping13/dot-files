@@ -15,7 +15,7 @@ then
   echo "$listPackage</tool>"
 elif [ $nbPackage -gt 1 ]
 then
-  echo "<txt>><span fgcolor='Red'>󰏔</span> $nbPackage </txt>"
+  echo "<txt><span fgcolor='Red'>󰏔</span> $nbPackage </txt>"
   echo "<tool>$nbPackage packages update available"
   echo "$listPackage</tool>"
 fi
