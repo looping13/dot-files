@@ -10,4 +10,5 @@ Description= +++ Refresh Pacman monitor +++
 Depends = xfce4-panel
 When = PostTransaction
 # check the number of the plugin genmon-x, by hovering on the panel>items , in my current it is 27 
-Exec = /usr/bin/xfce4-panel --plugin-event=genmon-27:refresh:bool:true
+# Exec = /usr/bin/bash -c "/home/olivier/Projects/dot-files/xfce_genmonRefresh.sh"
+Exec = /usr/bin/sh -c '/usr/bin/xfce4-panel -r'
