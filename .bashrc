@@ -413,3 +413,13 @@ alias tos="/home/olivier/Talend/TOS_DI-20200219_1130-V7.3.1/TOS_DI-linux-gtk-x86
 alias ydl720="youtube-dl -f 'best[height<=720]'+bestaudio -o '%(title)s.%(ext)s'"
 #EXA
 alias exa='exa -ghl --git --icons'
+
+function updatex() {
+	echo "Start"
+	sudo pacman -Syyu
+	echo "Done"
+#	bash -c "/home/olivier/Projects/dot-files/xfce_genmonRefresh.sh"
+	bash -c "/usr/bin/xfce4-panel -r"
+	echo "xfce4-panel restarted"
+	}
+
