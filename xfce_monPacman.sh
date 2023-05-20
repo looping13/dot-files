@@ -22,6 +22,6 @@ then
   echo "$nbPackage packages update available"
   echo "$listPackage</tool>"
 fi
- echo "<txtclick>xfce4-terminal --window --command=\"bash -c 'sudo pacman -Syyu; /usr/bin/xfce4-panel -r'\"</txtclick>"
- echo "<txtclick>/home/olivier/Projects/dot-files/xfce_genmonRefresh.sh</txtclick>"
+ echo "<txtclick>xfce4-terminal --window --command=\"bash -c 'echo Updating system; sudo pacman -Syyu; /usr/bin/xfce4-panel -r'\"</txtclick>"
+## echo "<txtclick>/home/olivier/Projects/dot-files/xfce_genmonRefresh.sh</txtclick>"
 ##echo "<txtclick>gedit</txtclick>"
